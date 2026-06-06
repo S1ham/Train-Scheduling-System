@@ -6,7 +6,7 @@ This project demonstrates core concepts of concurrent programming, thread lifecy
 
 ---
 
-## 🚀 Key Features
+## Key Features
 
 * **Asynchronous Train Lifecycles:** Every scheduled train operates on its own dedicated thread, processing its arrival, passenger boarding, and departure cycles in the background without freezing the user interface.
 * **Platform Conflict Resolution:** Includes safety checks that monitor active tracks, preventing multiple trains from being assigned to the same platform simultaneously.
@@ -15,7 +15,7 @@ This project demonstrates core concepts of concurrent programming, thread lifecy
 
 ---
 
-## 📸 System Interface & Simulation
+## System Interface & Simulation
 
 ### Main Menu Interface
 Below is the interactive control menu where station managers can dynamically add, view, or cancel scheduled trains.
@@ -29,7 +29,7 @@ Here is the system executing multiple train lifecycles concurrently. Notice how 
 
 ---
 
-## 🛠️ Architecture & Core Concepts Demonstrated
+## Architecture & Core Concepts Demonstrated
 
 * **Java Concurrency API:** Leverages thread states, execution blocks, `Thread.sleep()` for time-simulation, and `Thread.interrupt()` for safe process termination.
 * **Encapsulation & OOP:** Clean separation between the core operational data structure (`Train`) and the control interface (`TrainSchedulingSystem`).
@@ -37,7 +37,7 @@ Here is the system executing multiple train lifecycles concurrently. Notice how 
 
 ---
 
-## ⚙️ How to Run the Project Locally
+## How to Run the Project Locally
 
 Ensure you have the **Java Development Kit (JDK 8 or higher)** installed on your machine.
 
@@ -56,7 +56,7 @@ Run the application:
 Bash
 java TrainSchedulingSystem
 
-System Architectural Insights & Future Enhancements
+##System Architectural Insights & Future Enhancements
 While this architecture serves as a clean, effective simulation of real-time multi-threading, moving it to enterprise production environments would involve several modernization steps:
 
 Decoupling Task from Worker (Runnable over Thread): * Current approach: The project extends the Thread class directly for architectural simplicity.
@@ -73,5 +73,5 @@ Production change: Utilizing background callback interfaces or thread pools (Exe
 
 Developed as a demonstration of backend software architecture and algorithmic thread management.
 
-Author
+#Author
 Siham Ali
