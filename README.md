@@ -56,7 +56,7 @@ Run the application:
 Bash
 java TrainSchedulingSystem
 
-##System Architectural Insights & Future Enhancements
+## System Architectural Insights & Future Enhancements
 While this architecture serves as a clean, effective simulation of real-time multi-threading, moving it to enterprise production environments would involve several modernization steps:
 
 Decoupling Task from Worker (Runnable over Thread): * Current approach: The project extends the Thread class directly for architectural simplicity.
@@ -73,5 +73,5 @@ Production change: Utilizing background callback interfaces or thread pools (Exe
 
 Developed as a demonstration of backend software architecture and algorithmic thread management.
 
-#Author
+# Author
 Siham Ali
